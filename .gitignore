@@ -1,0 +1,7 @@
+build/
+*.class
+config/db.properties
+tickets/
+*.png
+.DS_Store
+Thumbs.db

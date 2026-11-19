@@ -1,0 +1,16 @@
+# CineVault Database & Security Configuration
+# Copy this file to config/db.properties and customize values for your environment.
+
+db.host=localhost
+db.port=3306
+db.name=cinema_vault_db
+db.user=root
+db.password=
+db.params=useSSL=false&allowPublicKeyRetrieval=true&serverTimezone=Asia/Dhaka&createDatabaseIfNotExist=true
+
+# 64-character hex HMAC-SHA256 secret used to sign and verify E-Tickets
+security.hmac.secret=CHANGE_ME_TO_A_64_HEX_CHARACTER_SECRET_KEY_0123456789ABCDEF012345
+
+# Real-time TCP Socket Notification Server
+socket.host=127.0.0.1
+socket.port=5555
